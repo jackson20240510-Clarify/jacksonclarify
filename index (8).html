@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="朱毋我校長導讀頁面：以清晰的觀點閱讀議題，以脈絡理解朱毋我校長的相關事件。前往原站閱讀完整文章與相關內容。">
+  <meta property="og:title" content="教權當道下的悲歌｜朱毋我校長導讀頁面">
+  <meta property="og:description" content="以清晰的觀點閱讀議題，以脈絡理解朱毋我校長的相關事件。歡迎前往，閱讀完整文章與相關內容。">
+  <meta property="og:image" content="cover.jpg">
+  <title>教權當道下的悲歌｜朱毋我校長導讀頁面</title>
+  <style>
+    :root {
+      --ink: #172536; --navy: #0d1722; --muted: #667587; --paper: #f5f3ef;
+      --white: #fff; --gold: #d9aa49; --line: rgba(23,37,54,.13);
+      --shadow: 0 22px 65px rgba(13,23,34,.14);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif; line-height: 1.75; }
+    a { color: inherit; }
+    .topbar { background: rgba(255,255,255,.94); border-bottom: 1px solid var(--line); }
+    .nav { width: min(1180px,calc(100% - 48px)); min-height: 76px; margin: auto; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .brand { display:flex; align-items:center; gap:12px; text-decoration:none; font-weight:900; letter-spacing:.04em; }
+    .mark { width:42px; height:42px; display:grid; place-items:center; background:var(--navy); color:var(--gold); border-radius:12px; font-family:Georgia,serif; font-size:23px; }
+    .brand small { display:block; color:var(--muted); font-size:10px; letter-spacing:.16em; line-height:1.4; }
+    .nav-link { text-decoration:none; border:1px solid var(--line); padding:10px 17px; border-radius:999px; font-size:13px; font-weight:800; transition:.2s; }
+    .nav-link:hover { background:var(--navy); color:#fff; }
+    .cover { background:#101820; padding:clamp(16px,3vw,36px) 0; }
+    .cover-inner { width:min(1500px,calc(100% - 32px)); margin:auto; }
+    .cover img { display:block; width:100%; height:auto; max-height:calc(100vh - 90px); object-fit:contain; margin:auto; border-radius:5px; box-shadow:0 25px 80px rgba(0,0,0,.32); }
+    .hero-copy { background:linear-gradient(135deg,#101820,#243343); color:#fff; }
+    .hero-inner { width:min(1080px,calc(100% - 48px)); margin:auto; padding:58px 0 64px; display:grid; grid-template-columns:1.2fr .8fr; gap:54px; align-items:center; }
+    .eyebrow { color:var(--gold); font-size:12px; font-weight:900; letter-spacing:.17em; margin-bottom:16px; }
+    h1 { margin:0; font-size:clamp(30px,4.4vw,52px); line-height:1.28; letter-spacing:-.035em; }
+    .intro { margin:20px 0 28px; color:rgba(255,255,255,.82); font-size:clamp(15px,1.7vw,18px); max-width:650px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; }
+    .button { min-height:50px; display:inline-flex; align-items:center; justify-content:center; gap:9px; padding:0 22px; border-radius:999px; text-decoration:none; font-weight:900; font-size:14px; transition:.2s; }
+    .primary { background:var(--gold); color:#172536; }
+    .primary:hover { background:#efc66d; transform:translateY(-2px); }
+    .secondary { border:1px solid rgba(255,255,255,.35); color:#fff; }
+    .secondary:hover { background:rgba(255,255,255,.08); }
+    .quote-card { padding:27px; border:1px solid rgba(255,255,255,.16); background:rgba(255,255,255,.055); border-radius:20px; }
+    .quote-card .symbol { color:var(--gold); font-family:Georgia,serif; font-size:56px; line-height:1; }
+    .quote-card p { font-size:17px; font-weight:700; margin:12px 0; }
+    .quote-card small { color:rgba(255,255,255,.64); font-size:12px; }
+    .section { width:min(1000px,calc(100% - 48px)); margin:auto; padding:76px 0; }
+    .kicker { color:#946817; font-size:11px; font-weight:900; letter-spacing:.17em; margin-bottom:10px; }
+    h2 { color:var(--ink); font-size:clamp(26px,3.4vw,38px); line-height:1.35; letter-spacing:-.025em; margin:0 0 15px; }
+    .section-intro { color:var(--muted); font-size:16px; max-width:760px; margin:0; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:17px; margin-top:30px; }
+    .card { background:#fff; border:1px solid var(--line); border-radius:18px; padding:24px; box-shadow:0 8px 25px rgba(13,23,34,.035); }
+    .num { width:39px; height:39px; display:grid; place-items:center; border-radius:12px; background:#f4e8cc; color:#7d5712; font-size:12px; font-weight:900; margin-bottom:17px; }
+    .card h3 { margin:0 0 8px; font-size:17px; }
+    .card p { margin:0; color:var(--muted); font-size:14px; }
+    .cta-wrap { padding:0 24px 76px; }
+    .cta { width:min(1000px,100%); margin:auto; padding:36px 40px; display:flex; justify-content:space-between; align-items:center; gap:24px; border-radius:22px; background:#e9e4da; }
+    .cta h2 { font-size:clamp(23px,3vw,31px); margin:0 0 6px; }
+    .cta p { margin:0; color:var(--muted); font-size:14px; }
+    .cta .button { background:var(--navy); color:#fff; flex-shrink:0; }
+    footer { border-top:1px solid var(--line); }
+    .footer-inner { width:min(1180px,calc(100% - 48px)); min-height:92px; margin:auto; display:flex; align-items:center; justify-content:space-between; gap:18px; color:var(--muted); font-size:12px; }
+    .footer-inner strong { color:var(--ink); letter-spacing:.07em; }
+    .footer-inner a { color:var(--ink); font-weight:800; text-decoration:none; }
+    @media(max-width:800px) { .hero-inner { grid-template-columns:1fr; gap:28px; padding:44px 0 48px; } .cards { grid-template-columns:1fr; } .card { display:grid; grid-template-columns:46px 1fr; column-gap:14px; } .num { grid-row:span 2; margin:0; } .card h3 { align-self:end; } .cta { flex-direction:column; align-items:flex-start; padding:28px 24px; } .cta .button { width:100%; } }
+    @media(max-width:520px) { .nav,.footer-inner { width:calc(100% - 32px); } .nav { min-height:68px; } .brand { font-size:12px; } .mark { width:36px;height:36px; } .brand small { font-size:8px; } .nav-link { padding:8px 11px;font-size:11px; } .cover-inner { width:100%; } .cover img { border-radius:0; } .hero-inner,.section { width:calc(100% - 32px); } .hero-inner { padding:40px 0; } .button { width:100%; } .section { padding:56px 0; } .cta-wrap { padding:0 16px 56px; } .footer-inner { padding:22px 0; align-items:flex-start; flex-direction:column; } }
+    @media(prefers-reduced-motion:reduce) { html{scroll-behavior:auto} *,*::before,*::after{transition:none!important} }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="主要導覽">
+      <a class="brand" href="#top" aria-label="朱毋我校長導讀頁面首頁">
+        <span class="mark">J</span>
+        <span>JACKSON CLARIFY<small>INSIGHT · CLARITY · PERSPECTIVE</small></span>
+      </a>
+      <a class="nav-link" href="https://sites.google.com/view/jacksonclarify/home?authuser=5" target="_blank" rel="noopener noreferrer">前往原站閱讀 ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="cover" aria-label="文章封面">
+      <div class="cover-inner">
+        <img src="cover.jpg" alt="教權當道下的悲歌：校長勇敢承擔，卻慘遭重懲；帶您直擊人本陰影下的委屈真相">
+      </div>
+    </section>
+
+    <section class="hero-copy">
+      <div class="hero-inner">
+        <div>
+          <div class="eyebrow">FEATURED STORY · 導讀專頁</div>
+          <h1>教權當道下的悲歌</h1>
+          <p class="intro">以清晰的觀點閱讀議題，以脈絡理解朱毋我校長的相關事件。歡迎前往，閱讀完整文章與相關內容。</p>
+          <div class="actions">
+            <a class="button primary" href="https://sites.google.com/view/jacksonclarify/home?authuser=5" target="_blank" rel="noopener noreferrer">閱讀完整文章 <span aria-hidden="true">↗</span></a>
+            <a class="button secondary" href="#about">了解本頁</a>
+          </div>
+        </div>
+        <aside class="quote-card">
+          <div class="symbol" aria-hidden="true">“</div>
+          <p>這是朱毋我校長的導讀頁面。完整文章、原始內容與更新，請以原站發布資訊為準。</p>
+          <small>JACKSON CLARIFY · READING GUIDE</small>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="kicker">ABOUT THIS PAGE</div>
+      <h2>從清楚的入口，開始深入閱讀</h2>
+      <p class="section-intro">本頁提供朱毋我校長相關事件的導讀入口。為忠實呈現原始內容，完整文章、原始資料與最新更新，請以原站發布資訊為準。</p>
+      <div class="cards">
+        <article class="card"><div class="num">01</div><h3>直達原始內容</h3><p>前往原站閱讀完整文章，掌握原文脈絡與相關更新。</p></article>
+        <article class="card"><div class="num">02</div><h3>以脈絡理解事件</h3><p>從清晰的閱讀動線出發，深入了解朱毋我校長的相關事件。</p></article>
+        <article class="card"><div class="num">03</div><h3>跨裝置閱讀</h3><p>採用響應式設計，在桌機、平板與手機上都能舒適瀏覽。</p></article>
+      </div>
+    </section>
+
+    <section class="cta-wrap">
+      <div class="cta">
+        <div><h2>前往原站，閱讀完整內容</h2><p>文章細節、原始內容與後續更新，請以原站發布資訊為準。</p></div>
+        <a class="button" href="https://sites.google.com/view/jacksonclarify/home?authuser=5" target="_blank" rel="noopener noreferrer">前往原站 ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div><strong>JACKSON CLARIFY</strong><br>朱毋我校長導讀頁面</div>
+      <div>完整內容請參閱 <a href="https://sites.google.com/view/jacksonclarify/home?authuser=5" target="_blank" rel="noopener noreferrer">原站 ↗</a></div>
+    </div>
+  </footer>
+</body>
+</html>
