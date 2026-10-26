@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101820">
-  <meta name="description" content="導讀頁面：以清晰的觀點閱讀議題，以脈絡理解相關事件。前往原站閱讀完整文章與相關內容。">
+  <meta name="description" content="朱毋我校長沉冤真相：整理相關司法文書、行政文件與會議紀錄，呈現本頁作者對事件的理解與主張。">
   <meta property="og:title" content="朱毋我校長沉冤真相">
-  <meta property="og:description" content="以清晰的觀點閱讀議題，以脈絡理解相關事件。歡迎前往，閱讀完整文章與相關內容。">
+  <meta property="og:description" content="整理本頁作者提出的四大關鍵事實與相關文件線索；具體事實及法律解讀，請以原始文件與主管機關正式資料核對。">
   <meta property="og:image" content="cover.jpg">
-  <title>朱毋我校長沉冤真相</title>
+  <title>朱毋我校長沉冤真相｜四大關鍵事實與文件整理</title>
   <style>
     :root {
       --ink: #172536; --navy: #0d1722; --muted: #667587; --paper: #f5f3ef;
@@ -65,68 +65,209 @@
     @media(max-width:800px) { .hero-inner { grid-template-columns:1fr; gap:28px; padding:44px 0 48px; } .cards { grid-template-columns:1fr; } .card { display:grid; grid-template-columns:46px 1fr; column-gap:14px; } .num { grid-row:span 2; margin:0; } .card h3 { align-self:end; } .cta { flex-direction:column; align-items:flex-start; padding:28px 24px; } .cta .button { width:100%; } }
     @media(max-width:520px) { .nav,.footer-inner { width:calc(100% - 32px); } .nav { min-height:68px; } .brand { font-size:12px; } .mark { width:36px;height:36px; } .brand small { font-size:8px; } .nav-link { padding:8px 11px;font-size:11px; } .cover-inner { width:100%; } .cover img { border-radius:0; } .hero-inner,.section { width:calc(100% - 32px); } .hero-inner { padding:40px 0; } .button { width:100%; } .section { padding:56px 0; } .cta-wrap { padding:0 16px 56px; } .footer-inner { padding:22px 0; align-items:flex-start; flex-direction:column; } }
     @media(prefers-reduced-motion:reduce) { html{scroll-behavior:auto} *,*::before,*::after{transition:none!important} }
+
+    .article-wrap { width:min(1000px,calc(100% - 40px)); margin:auto; padding:54px 0 72px; }
+    .article-lead { background:#fff; border:1px solid var(--line); border-left:5px solid var(--gold); border-radius:14px; padding:26px 30px; margin-bottom:28px; }
+    .article-lead p { margin:0 0 14px; }
+    .article-lead p:last-child { margin-bottom:0; }
+    .notice { color:#5d6470; background:#f0ede7; border-radius:10px; padding:14px 18px; font-size:13px; }
+    .article-nav { display:flex; flex-wrap:wrap; gap:10px; margin:24px 0 38px; }
+    .article-nav a { display:inline-block; padding:8px 13px; border:1px solid var(--line); border-radius:999px; background:#fff; text-decoration:none; font-size:13px; font-weight:800; }
+    .article-section { padding:34px 0; border-top:1px solid var(--line); scroll-margin-top:24px; }
+    .article-section h2 { margin-bottom:16px; }
+    .article-section h3 { font-size:19px; margin:26px 0 8px; color:#23364a; }
+    .article-section p { margin:12px 0; }
+    .fact-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin:22px 0; }
+    .fact-card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:20px; }
+    .fact-card h3 { margin:0 0 8px; font-size:17px; }
+    .fact-card p { margin:0; color:var(--muted); font-size:14px; }
+    .evidence-list { padding-left:1.25em; }
+    .evidence-list li { margin:7px 0; }
+    .callout { border-left:4px solid var(--gold); padding:14px 20px; background:#fff; margin:22px 0; font-weight:800; }
+    .source-note { color:var(--muted); font-size:13px; }
+    @media(max-width:650px) { .article-wrap { width:calc(100% - 32px); padding:36px 0 50px; } .article-lead { padding:20px; } .fact-grid { grid-template-columns:1fr; } }
+
   </style>
 </head>
 <body>
   <header class="topbar">
     <nav class="nav" aria-label="主要導覽">
-      <a class="brand" href="#top" aria-label="導讀頁面首頁">
+      <a class="brand" href="#top" aria-label="朱毋我校長沉冤真相首頁">
         <span class="mark">J</span>
         <span>JACKSON CLARIFY<small>INSIGHT · CLARITY · PERSPECTIVE</small></span>
       </a>
-      <a class="nav-link" href="https://sites.google.com/view/jacksonclarify/home" target="_blank" rel="noopener noreferrer">前往原站閱讀 ↗</a>
+      <a class="nav-link" href="https://sites.google.com/view/jacksonclarify/home" target="_blank" rel="noopener noreferrer">參閱原站 ↗</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="cover" aria-label="文章封面">
-      <div class="cover-inner">
-        <img src="cover.jpg" alt="朱朱毋我校長沉冤真相：校長勇敢承擔，卻慘遭重懲；帶您直擊真相">
-      </div>
-    </section>
-
     <section class="hero-copy">
       <div class="hero-inner">
         <div>
-          <div class="eyebrow">FEATURED STORY · 導讀專頁</div>
+          <div class="eyebrow">DOCUMENT-BASED REVIEW · 文件導讀</div>
           <h1>朱毋我校長沉冤真相</h1>
-          <p class="intro">以清晰的觀點閱讀議題，以脈絡理解相關事件。歡迎前往，閱讀完整文章與相關內容。</p>
+          <p class="intro">三分鐘釐清全案四大關鍵事實。整理司法卷證、行政文件與會議紀錄相關線索，呈現本頁作者對事件的理解與主張。</p>
           <div class="actions">
-            <a class="button primary" href="https://sites.google.com/view/jacksonclarify/home"_blank" rel="noopener noreferrer">閱讀完整文章 <span aria-hidden="true">↗</span></a>
-            <a class="button secondary" href="#about">了解本頁</a>
+            <a class="button primary" href="#four-facts">閱讀四大關鍵事實 ↓</a>
+            <a class="button secondary" href="#sources">文件與查證提醒</a>
           </div>
         </div>
         <aside class="quote-card">
           <div class="symbol" aria-hidden="true">“</div>
-          <p>這是本議題的導讀頁面。完整文章、原始內容與更新，請以原站發布資訊為準。</p>
-          <small>JACKSON CLARIFY · READING GUIDE</small>
+          <p>理解爭議事件，宜回到完整文件、程序脈絡與可核對的資料。</p>
+          <small>朱毋我校長事件 · 導讀整理</small>
         </aside>
       </div>
     </section>
 
-    <section class="section" id="about">
-      <div class="kicker">ABOUT THIS PAGE</div>
-      <h2>從清楚的入口，開始深入閱讀</h2>
-      <p class="section-intro">本頁提供相關事件的導讀入口。為忠實呈現原始內容，完整文章、原始資料與最新更新，請以原站發布資訊為準。</p>
-      <div class="cards">
-        <article class="card"><div class="num">01</div><h3>直達原始內容</h3><p>前往原站閱讀完整文章，掌握原文脈絡與相關更新。</p></article>
-        <article class="card"><div class="num">02</div><h3>以脈絡理解事件</h3><p>從清晰的閱讀動線出發，深入了解相關事件。</p></article>
-        <article class="card"><div class="num">03</div><h3>跨裝置閱讀</h3><p>採用響應式設計，在桌機、平板與手機上都能舒適瀏覽。</p></article>
-      </div>
-    </section>
+    <div class="article-wrap">
+      <section class="article-lead">
+        <h2>三分鐘釐清全案四大關鍵事實</h2>
+        <p>本頁面以司法卷證與會議紀錄為基礎，整理本頁作者對朱毋我校長事件的觀點。全案可歸納為四大關鍵事實，每一項均涉及司法或行政文件，值得逐一核對與理解。過去十年間，朱校長因相關指控與媒體報導承受名譽及職業上的重大壓力；本頁嘗試從司法、行政、監察與教育體制等面向，整理事件中的爭點，供讀者進一步查閱。</p>
+        <p class="notice">閱讀提醒：本頁包含作者對事件事實、他人言行及法律適用的主張與評價。本文並非司法判決或法律意見；涉及個案的結論，請以完整司法文書、正式公文、會議紀錄及主管機關資料核實，並留意不同文件的認定範圍。</p>
+      </section>
 
-    <section class="cta-wrap">
-      <div class="cta">
-        <div><h2>前往原站，閱讀完整內容</h2><p>文章細節、原始內容與後續更新，請以原站發布資訊為準。</p></div>
-        <a class="button" href="https://sites.google.com/view/jacksonclarify/home" target="_blank" rel="noopener noreferrer">前往原站 ↗</a>
-      </div>
-    </section>
+      <nav class="article-nav" aria-label="文章段落">
+        <a href="#four-facts">四大關鍵事實</a>
+        <a href="#fact1">司法偵查</a>
+        <a href="#fact2">監察與媒體</a>
+        <a href="#fact3">懲戒法院</a>
+        <a href="#fact4">教育局與教評會</a>
+        <a href="#due-process">程序正義</a>
+        <a href="#ten-years">十年沉冤</a>
+        <a href="#sources">查證提醒</a>
+      </nav>
+
+      <section class="article-section" id="four-facts">
+        <div class="kicker">FOUR KEY ISSUES</div>
+        <h2>全案四大關鍵事實</h2>
+        <div class="fact-grid">
+          <article class="fact-card"><h3>一、司法三度偵查不起訴</h3><p>本文主張，相關檢察機關曾三度偵查並作成不起訴處分；應以各份處分書的完整理由與認定範圍為準。</p></article>
+          <article class="fact-card"><h3>二、監察與媒體報導爭議</h3><p>本文質疑監察立案用語及媒體報導是否完整呈現言論脈絡，建議對照原始會議紀錄、調查文件與完整報導。</p></article>
+          <article class="fact-card"><h3>三、懲戒法院判決休職</h3><p>本文提出對休職處分適用範圍的法律見解；實際法律效果應依判決主文、理由及相關法規解釋判斷。</p></article>
+          <article class="fact-card"><h3>四、教育局與教評會程序</h3><p>本文主張教育局要求重新審議及教評會歷次決議涉及程序爭議；應核對正式公文及各次會議紀錄。</p></article>
+        </div>
+      </section>
+
+      <section class="article-section" id="fact1">
+        <div class="kicker">KEY FACT 01</div>
+        <h2>司法三度偵查不起訴：相關處分與認定範圍</h2>
+        <p>本文指出，士林地檢署（案號：107偵1818、107偵續260）及臺灣高等檢察署（案號：109上聲議1567）曾就相關事件進行偵查或審查，並作成不起訴相關處分。讀者可依案號查閱處分書，確認各次處分所處理的指控、證據與理由。</p>
+        <p>本文並主張，相關司法資料涉及學校管教行為、朱校長是否與學生接觸，以及事件與學校管教間是否存在相當因果關係等爭點。這些事項應以處分書原文及完整證據脈絡為準；不起訴處分的法律意義，也應與民事責任、行政責任或懲戒責任區分理解。</p>
+        <p>作者認為，司法程序的結果未能充分扭轉社會輿論對朱校長的印象，造成長期名譽壓力。為避免以摘要取代原文，建議讀者比對各份司法文件的日期、案由、處分理由及其適用範圍。</p>
+        <div class="fact-grid">
+          <article class="fact-card"><h3>士林地檢署</h3><p>本文列示案號：107偵1818、107偵續260。</p></article>
+          <article class="fact-card"><h3>臺灣高等檢察署</h3><p>本文列示案號：109上聲議1567。</p></article>
+        </div>
+        <h3>監視器與證詞：本文提出的爭點</h3>
+        <p>本文稱，檢方曾調閱監視器影像並訪談相關證人，且主張影像與證詞可用於釐清朱校長在事件當日是否與甲生接觸。本文也提及學生在校門口及返家途中所經歷的情緒事件，並主張司法資料認為相關結果與學校管教間「無相當因果關係」。上述內容應直接對照處分書原文，不宜只依本頁摘要作為定論。</p>
+        <h3>本文整理的司法認定摘要</h3>
+        <ul class="evidence-list">
+          <li>核對司法文件對學校管教行為的具體認定。</li>
+          <li>核對朱校長於事件當日是否與甲生接觸的相關證據。</li>
+          <li>核對處分書對事件因果關係的原文與適用範圍。</li>
+          <li>區分刑事不起訴、行政處分與懲戒程序的法律效果。</li>
+        </ul>
+      </section>
+
+      <section class="article-section" id="fact2">
+        <div class="kicker">KEY FACT 02</div>
+        <h2>監察與媒體報導爭議：言論脈絡與調查程序</h2>
+        <p>本文主張，民代與人本教育文教基金會召開記者會後，相關媒體報導迅速增加；作者質疑監察立案案由是否受到媒體用語影響，以及調查過程是否充分獨立查證。對此，宜比對監察院正式調查報告、彈劾案文、會議紀錄及報導全文，確認各方主張與正式認定的差異。</p>
+        <p>本文聚焦於兩段會議言論：其一為「小孩騙大人」，其二為「像感冒一樣要吃藥」。作者認為，這些話語應放回完整談話脈絡理解，不宜只摘取片段作出結論。讀者可查閱完整紀錄，核對原話、前後文、談話對象及相關機關的正式認定。</p>
+        <div class="fact-grid">
+          <article class="fact-card"><h3>「小孩騙大人」</h3><p>本文認為該句應結合當時談話脈絡理解；實際語意與評價應核對完整紀錄。</p></article>
+          <article class="fact-card"><h3>「像感冒一樣要吃藥」</h3><p>本文認為該句涉及學生就醫與服藥的討論；應核對完整語境及正式調查認定。</p></article>
+        </div>
+        <h3>應查核的資料</h3>
+        <ul class="evidence-list">
+          <li>監察院相關調查報告、彈劾案文及正式決議。</li>
+          <li>會議完整紀錄、原始錄音或其他可供核對的資料。</li>
+          <li>相關媒體報導全文、刊登日期及後續更正或補充。</li>
+        </ul>
+      </section>
+
+      <section class="article-section" id="fact3">
+        <div class="kicker">KEY FACT 03</div>
+        <h2>懲戒法院判決休職：行政職務與教師本職的法律爭點</h2>
+        <p>本文指出，懲戒法院曾判決朱校長休職二年，並主張判決對「會議未錄音」及「討論服藥」等指控有不同認定。請以判決主文與理由全文確認法院實際認定的事實、違失範圍及處分理由，避免以摘要替代判決內容。</p>
+        <h3>司法院釋字第308號與相關函釋</h3>
+        <p>本文援引司法院釋字第308號及公懲會函釋（臺會議字第0970002595號），提出教師兼任行政職務所受休職處分是否及於教師本職，以及卸任校長後回任專任教師時的法律效果等問題。此處涉及法規解釋及個案適用，不能僅憑本頁文字斷定法律結論；應一併查閱解釋文、函釋原文、相關法規及本案判決。</p>
+        <div class="callout">法律適用應以正式法規、解釋文、函釋原文及個案判決全文為依據；本段呈現的是本文提出的法律爭點，不構成法律意見。</div>
+        <h3>本文列示的法律資料</h3>
+        <ul class="evidence-list">
+          <li>司法院釋字第308號。</li>
+          <li>公懲會函釋：臺會議字第0970002595號。</li>
+          <li>懲戒法院本案判決主文及理由全文。</li>
+        </ul>
+      </section>
+
+      <section class="article-section" id="fact4">
+        <div class="kicker">KEY FACT 04</div>
+        <h2>教育局公文與教評會：停聘審議程序爭議</h2>
+        <p>本文主張，在休職處分如何適用於教師本職出現爭議後，教育局曾發函要求民權國中依教師法處理停聘問題。此一行政處理的法律依據、程序及效力，應以正式公文、適用法規與相關決議核實。</p>
+        <p>本文並稱，民權國中教師評審委員會曾連續七次開會審議，且第3次與第7次會議曾否決停聘案；作者質疑教育局後續要求重新審議的作法是否影響教評會的獨立判斷。建議讀者查閱各次會議紀錄及往返公文，確認議程、表決結果、出席情形及機關所述法律依據。</p>
+        <div class="fact-grid">
+          <article class="fact-card"><h3>教評會開會次數</h3><p>本文列稱連續七次開會審議停聘案，應以正式會議紀錄核對。</p></article>
+          <article class="fact-card"><h3>表決與後續公文</h3><p>本文稱第3次與第7次會議否決停聘案，並有後續重新審議公文；請以原始紀錄核實。</p></article>
+        </div>
+        <h3>建議核對的文件</h3>
+        <ul class="evidence-list">
+          <li>民權國中教評會各次會議紀錄與表決結果。</li>
+          <li>教育局要求重新審議的正式公文及所引用法條。</li>
+          <li>後續停聘決議、救濟程序與相關機關正式處理結果。</li>
+        </ul>
+      </section>
+
+      <section class="article-section" id="due-process">
+        <div class="kicker">PROCEDURAL JUSTICE</div>
+        <h2>程序正義：一事不二罰與法定審議權限</h2>
+        <p>本文認為，本案涉及「一事不二罰」及正當程序等法律爭點。是否構成重複懲處、不同處分的法律性質是否相同，以及教育行政機關與教評會各自的法定權限，均須依相關法規、判決及完整行政程序判斷。</p>
+        <h3>一事不二罰之爭點</h3>
+        <p>本文質疑，在已有休職判決的情況下，後續停聘程序是否對同一事實產生重複處分效果。這項主張需要比較各處分的法律依據、目的、性質、事實基礎及主管機關正式理由，不能僅因處分名稱或結果相近就直接推論違法。</p>
+        <h3>正當程序之爭點</h3>
+        <p>本文也關注教育局要求重新審議是否影響教評會的獨立判斷。判斷程序是否合法，應檢視法定權限、通知與陳述程序、會議紀錄、公文理由及可適用的救濟結果。</p>
+        <div class="callout">本頁的目的在整理爭點與文件線索，讓讀者能回到原始資料判讀，而非以單一敘事取代完整調查或司法判斷。</div>
+      </section>
+
+      <section class="article-section" id="ten-years">
+        <div class="kicker">TEN YEARS OF CONTROVERSY</div>
+        <h2>校長沉冤十年：名譽、程序與教育專業自主</h2>
+        <p>本文作者認為，事件延續多年，相關媒體報導、行政程序與法律爭議對朱毋我校長的名譽及職涯造成重大影響。作者主張，應將司法程序結果、懲戒判決、教評會決議及教育局往返公文放在同一時間軸中檢視，才能理解不同機關在不同階段處理的事項。</p>
+        <p>本案亦涉及更廣泛的公共議題：媒體報導是否完整呈現資料、監察與行政程序如何回應公眾關注、法定審議機關如何維持專業自主，以及當事人如何透過合法途徑維護權益。這些問題應以可查證的原始資料討論，並清楚區分事實、各方主張與法律結論。</p>
+        <div class="callout">司法文書、懲戒判決與教評會紀錄各有不同的認定範圍。理解事件時，應同時檢視文件全文、時間脈絡與正式處理結果。</div>
+      </section>
+
+      <section class="article-section" id="action">
+        <div class="kicker">READ THE RECORDS</div>
+        <h2>穿透媒體標題，以文件理解事件</h2>
+        <p>本頁整理朱毋我校長事件的四大關鍵爭點，提供讀者一個查閱相關資料的入口。我們鼓勵讀者在閱讀媒體報導與各方評論之餘，也查閱司法卷證、正式公文、會議紀錄與相關法規，並留意文件的完整上下文。</p>
+        <div class="fact-grid">
+          <article class="fact-card"><h3>司法文件</h3><p>核對案號、處分日期、處分理由及具體認定範圍。</p></article>
+          <article class="fact-card"><h3>會議與行政紀錄</h3><p>比對會議紀錄、表決結果、往返公文及法規依據。</p></article>
+        </div>
+        <p>朱毋我校長事件涉及個人權益、教育行政程序與公共討論。面對爭議，應尊重當事人權益，並以完整、可查證的資料釐清事實。</p>
+      </section>
+
+      <section class="article-section" id="sources">
+        <div class="kicker">SOURCES & VERIFICATION</div>
+        <h2>文件與查證提醒</h2>
+        <p>本文所列案號、法律依據、會議次數及程序描述，係依使用者提供的文字整理；製作本頁時未逐份取得並核驗全部原始司法或行政文件。若要公開作為正式資料，建議補上可公開查閱的原始文件連結、文件日期、頁碼及必要的個資遮蔽。</p>
+        <ul class="evidence-list">
+          <li>司法文書：以檢察機關或法院正式文件為準。</li>
+          <li>監察資料：以監察院公開的調查報告、彈劾案文及正式決議為準。</li>
+          <li>行政資料：以教育局正式公文及學校教評會完整會議紀錄為準。</li>
+          <li>法律解釋：以司法院解釋、函釋原文、現行法規及個案判決為準。</li>
+        </ul>
+        <p class="source-note">本頁為議題整理與導讀，不構成法律意見。文中對事件的描述及法律觀點應與原始文件核對；如有爭議，應參照完整文件與正式救濟結果。</p>
+      </section>
+    </div>
   </main>
 
   <footer>
     <div class="footer-inner">
-      <div><strong>JACKSON CLARIFY</strong><br>導讀頁面</div>
-      <div>完整內容請參閱 <a href="https://sites.google.com/view/jacksonclarify/home" target="_blank" rel="noopener noreferrer">原站 ↗</a></div>
+      <div><strong>JACKSON CLARIFY</strong><br>朱毋我校長沉冤真相｜文件導讀</div>
+      <div>原站與相關資料：<a href="https://sites.google.com/view/jacksonclarify/home" target="_blank" rel="noopener noreferrer">前往原站 ↗</a></div>
     </div>
   </footer>
 </body>
